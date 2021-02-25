@@ -82,7 +82,7 @@ function _webform_render_sp_privacy($component) {
 
   $elements['privacy'] = array(
     '#type' => 'checkboxes',
-    '#title' => 'Privacy',
+    '#title' => 'Privacy voorkeuren',
     '#options' => $privacy_options,
     '#required' => FALSE,
     '#webform_component' => array('type' => $component['type'] . '_privacy') + $component,
