@@ -264,8 +264,8 @@ function _webform_csv_data_sp_privacy($component, $export_options, $value) {
  */
 function sp_privacy_get_options() {
   $options = array(
-    'do_not_email' => 'Niet e-mailen',
-    'do_not_mail' => 'Niet per post',
+    //'do_not_email' => 'Niet e-mailen',
+    //'do_not_mail' => 'Niet per post',
     'do_not_sms' => 'Geen sms versturen',
     'is_opt_out' => 'Geen massa-mail (opt-out)',
     'do_not_phone' => 'Niet bellen',
